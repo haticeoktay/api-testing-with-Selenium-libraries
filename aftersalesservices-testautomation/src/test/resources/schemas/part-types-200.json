@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string"
+      },
+      "value": {
+        "type": "integer"
+      },
+      "type": {
+        "type": "string"
+      },
+      "did": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "text",
+      "value",
+      "type",
+      "did"
+    ]
+  },
+  "additionalItems": false
+}

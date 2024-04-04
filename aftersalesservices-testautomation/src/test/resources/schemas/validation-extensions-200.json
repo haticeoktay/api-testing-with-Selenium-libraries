@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "applicationExtensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validationExtensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "applicationExtensions",
+    "validationExtensions"
+  ]
+}

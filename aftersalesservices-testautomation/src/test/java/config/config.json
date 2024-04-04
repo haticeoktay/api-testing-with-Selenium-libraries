@@ -1,0 +1,80 @@
+{
+  "defaultEnvironment": "prod",
+  "defaultMode": "public",
+  "environments": [
+    "dev",
+    "qa",
+    "stage",
+    "prod"
+  ],
+  "modes": [
+    "private",
+    "public"
+  ],
+  "basePaths": {
+    "dev": {
+      "private": "",
+      "public": ""
+    },
+    "qa": {
+      "private": "",
+      "public": ""
+    },
+    "stage": {
+      "private": "",
+      "public": ""
+    },
+    "prod": {
+      "private": "",
+      "public": "http://localhost:57832"
+    }
+  },
+  "testRail": {
+    "baseUrl": "",
+    "userName": "",
+    "password": "",
+    "SUCCESS_STATE": 1,
+    "SUCCESS_COMMENT": "This test passed with cucumber automation.",
+    "FAIL_STATE": 5,
+    "FAILED_COMMENT": "This test failed with cucumber automation."
+  },
+  "endpoints": {
+    "generatecmac": {
+      "private": "null",
+      "public": "/generatecmac"
+    },
+    "varcod": {
+      "private": "null",
+      "public": "/api/v1/varcod/CSU"
+    },
+    "decoder": {
+      "private": "null",
+      "public": "/api/v1/decoder/"
+    },
+    "encoder": {
+      "private": "null",
+      "public": "/api/v1/encoder/"
+    }
+  },
+  "error": {
+    "messages": {
+      "UNKNOWN_ERROR": "Unknown error."
+    }
+  },
+  "validation": {
+    "messages": {
+      "INVALID_INPUTS": "Invalid inputs.",
+      "INVALID_FILE_INFORMATION": "Invalid file information.",
+      "INVALID_LICENSE_KEY": "Invalid license key.",
+      "INVALID_ADDRESS_INFO": "Invalid address info.",
+      "INVALID_PART_TYPES": "Invalid part types.",
+      "INVALID_PART_NUMBERS": "Invalid part numbers."
+    }
+  },
+  "users": {
+    "test": {
+      "username": "beta-admin",
+      "password": "tYui3<*oqEDnJ/51R-xB"
+    }
+  }
+}
